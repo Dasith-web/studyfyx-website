@@ -214,3 +214,8 @@ a.cell:hover { background: var(--card-bg, #edf4ff); border-color: var(--card-acc
 .member-portrait.rusiru img { width: 115%; left: -7.5%; top: -5%; }
 .member-portrait.dasith img { width: 160%; left: -30%; top: -36%; }
 .member-portrait.inupa img { top: -4%; }
+
+/* Keep the full team photograph visible at every screen size. */
+.team-photo { width: 100%; max-width: 640px; margin: 0 auto 2rem; overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: white; box-shadow: 0 5px 18px #001a3308; }
+.team-photo img { display: block; width: 100%; height: auto; }
+.team-photo figcaption { padding: 1rem 1.25rem; color: var(--ink-2); font-size: .9rem; text-align: center; }
